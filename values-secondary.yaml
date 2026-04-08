@@ -46,9 +46,9 @@ clusterGroup:
       path: charts/all/trilio-operand
       overrides:
         - name: backupTarget.bucketName
-          value: sa-demo-2
+          value: drew-trilio-cr-demo
         - name: backupTarget.region
-          value: ca-central-1
+          value: us-west-2
         - name: trilio.licenseSecretRef
           value: "true"
       syncPolicy:
